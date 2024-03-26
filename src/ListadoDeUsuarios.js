@@ -18,7 +18,7 @@ function Contenedor() {
     }, []);
 
     return (
-        <div className="Contenedor">
+        <div className="ListadoDeUsuarios">
             <h1>Lista de usuarios</h1>
             <div className="lista">
                 {usersList.map(user => (
